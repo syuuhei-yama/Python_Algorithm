@@ -19,3 +19,15 @@
 #
 # print("a=",a,",b=",b)
 
+#サーチアルゴリズム
+a = [10,3,1,4,2]
+
+search_s = 4
+findID = -1
+
+for i in range(len(a)):
+    if a[i] == search_s:
+        findID = i
+        break
+print("見つかったID=",findID)
+
