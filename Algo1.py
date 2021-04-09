@@ -39,7 +39,7 @@
 #     n = int(input())
 #     num = []
 #
-#     for i in range(1, n - 1):
+#     for i in range(1, n):
 #         if n % i == 0:
 #             num.append(i)
 #     nums = sum(num)
@@ -50,3 +50,16 @@
 #         print('nearly')
 #     else:
 #         print('neither')
+
+
+#競技プログラミング
+# ls = list(map(int,input().split()))
+# ls = [s for s in input()]
+# print(ls)
+
+# n = int(input())
+# l = [int(input()) for _ in range(n)]
+
+# a, b, x = map(int, input().split())
+# print('YES' if a <= x <= b+a else 'NO')
+
